@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Espee Printing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4 shadow">
+    <div class="container mx-auto flex justify-between">
+      <h1 class="text-white text-xl font-bold">Espee Printing</h1>
+      <ul class="flex space-x-4 text-white">
+        <li><a href="index.html" class="hover:underline">Home</a></li>
+        <li><a href="about.html" class="hover:underline">About Us</a></li>
+        <li><a href="services.html" class="hover:underline">Services</a></li>
+        <li><a href="contact.html" class="hover:underline">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Form -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto max-w-md">
+      <h2 class="text-4xl font-bold mb-6 text-center">Contact Us</h2>
+      <form class="bg-blue-50 p-6 shadow rounded">
+        <label class="block mb-4">
+          <span class="text-gray-700">Name</span>
+          <input type="text" class="mt-1 block w-full rounded border-gray-300 shadow-sm" placeholder="Your Name" required>
+        </label>
+        <label class="block mb-4">
+          <span class="text-gray-700">Email</span>
+          <input type="email" class="mt-1 block w-full rounded border-gray-300 shadow-sm" placeholder="Your Email" required>
+        </label>
+        <label class="block mb-4">
+          <span class="text-gray-700">Message</span>
+          <textarea class="mt-1 block w-full rounded border-gray-300 shadow-sm" rows="3" placeholder="Your Message" required></textarea>
+        </label>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700">Submit</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
